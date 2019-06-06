@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A personal website built using React.js for Saket Roy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roy-05/personal.git"
+  },
+  "author": "Saket Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roy-05/personal/issues"
+  },
+  "homepage": "https://github.com/Roy-05/personal#readme"
+}
