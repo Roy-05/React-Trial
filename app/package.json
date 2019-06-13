@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Roy-05/personal/issues"
   },
-  "homepage": "https://github.com/Roy-05/personal#readme",
+  "homepage": "https://roy-05.github.io/personal/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
