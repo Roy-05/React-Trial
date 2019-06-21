@@ -14,7 +14,7 @@ ReactDOM.render(<Home/>, document.getElementById('root'));*/
 
 const BackGroundImage = () => {
   return (
-      <img className = 'bg' src = {"src/img/MAIN_1.jpg"}></img>
+      <img className = 'bg' src = {"src/img/background.jpg"}></img>
   )
 }
 
