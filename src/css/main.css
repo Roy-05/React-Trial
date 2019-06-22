@@ -64,6 +64,6 @@ body {
     font-size: 100px;
     font-family: 'B612 Mono', monospace;
     background-color: transparent;
-    color: rgb(56, 0, 0);
-    border: solid 10px wheat; 
+    color:wheat;
+    /*border: solid 10px wheat; */
 }

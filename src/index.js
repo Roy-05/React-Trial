@@ -32,12 +32,17 @@ class Jumbotron extends React.Component {
 class PrimaryButton extends React.Component {
   constructor(props) {
     super(props);
+    this.redirect = this.redirect.bind(this);
   }
-  
+
+  redirect(){
+    alert("Redirect to About me");
+  }
+
   render() {
     return (
       <div className = "button-container">
-        <button id = "primary-button">{this.props.ButtonText}</button>
+        <button id = "primary-button" onClick={this.redirect}>{this.props.ButtonText}</button>
       </div>
     )
   }
