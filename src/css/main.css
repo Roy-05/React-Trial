@@ -22,10 +22,6 @@ body {
     height: 100%;
 }
 
-.jumbotron {
-    vertical-align: middle;
-}
-
 .grid-container {
     height: 100%;
     display: grid;
@@ -37,4 +33,19 @@ body {
     font-size: 30px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.8);
+}
+#jumbotron-container:before {      
+    content: '';
+    display: inline-block;
+    vertical-align: middle;     /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.jumbotron {
+    display: inline-block;
+    vertical-align: middle;    
+}
+
+#title {
+    
 }

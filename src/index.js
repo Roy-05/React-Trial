@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
     <div className = "grid-container">
       <div className = "grid-item"></div>
-      <div className = "grid-item">
+      <div className = "grid-item" id = "jumbotron-container">
         <Jumbotron />
       </div>
       <div className = "grid-item"></div>
@@ -29,20 +29,11 @@ class Jumbotron extends React.Component {
   }
 }
 
-
-class BackGroundImage extends React.Component {
-  render() {
-      return (
-          <img className = 'bg' src = {"src/img/background.jpg"}/>
-      )
-  }
-}
-
 class PrimaryButton extends React.Component {
   render() {
     return (
       <div className = "button-container">
-        <button id = "primary-button" /*onClick={ alert("Redirect to About Me")}*/>{this.props.ButtonText}</button>
+        <button id = "primary-button">{this.props.ButtonText}</button>
       </div>
     )
   }
