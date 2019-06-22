@@ -30,10 +30,9 @@ body {
 }
 
 .grid-item {
-    font-size: 30px;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.8);
 }
+
 #jumbotron-container:before {      
     content: '';
     display: inline-block;
@@ -47,5 +46,24 @@ body {
 }
 
 #title {
-    
+    font-size: 250px;
+    font-family: 'B612 Mono', monospace;
+    color: rgb(56, 0, 0);
+    margin: 0;
+}
+
+#fluff {
+    font-size: 100px;
+    font-family: 'B612 Mono', monospace;
+    color:  rgb(56, 0, 0);
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+#primary-button {
+    font-size: 100px;
+    font-family: 'B612 Mono', monospace;
+    background-color: transparent;
+    color: rgb(56, 0, 0);
+    border: solid 10px wheat; 
 }

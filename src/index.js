@@ -22,14 +22,18 @@ class Jumbotron extends React.Component {
     return (
       <div className = "jumbotron">
         <h1 id = "title">I AM SAKET ROY</h1>
-        <h2 id = "fluff">STUDENT. DEVELOPER. WRITER. TRAVELER.</h2>
-        <PrimaryButton ButtonText = "LEARN MORE"/>
+        <h2 id = "fluff">STUDENT. DEVELOPER. TRAVELER</h2>
+        <PrimaryButton ButtonText = "EXPLORE"/>
       </div>
     )
   }
 }
 
 class PrimaryButton extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  
   render() {
     return (
       <div className = "button-container">
