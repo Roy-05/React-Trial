@@ -10,21 +10,31 @@ html {
     
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
 .jumbotron {
-    /*add later*/
+    vertical-align: middle;
 }
 
 .grid-container {
+    height: 100%;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    padding: 10px;
+    grid-template-rows: 100%;
 }
 
 .grid-item {
-    padding: 20px;
     font-size: 30px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    height: 100%;
 }
