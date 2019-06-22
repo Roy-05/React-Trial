@@ -6,7 +6,6 @@ import "./css/main.css";
 const HomePage = () => {
   return(
     <>
-    <BackGroundImage/>
     <div className = "grid-container">
       <div className = "grid-item"></div>
       <div className = "grid-item">
