@@ -1,11 +1,15 @@
 import React from 'react';
-import PrimaryButton from './PrimaryButton'
-import "../css/main.css"
+import PrimaryButton from './PrimaryButton';
+import Navbar from './Navbar';
+import "../css/main.css";
 //import '../node_modules/normalize.css/normalize.css';
 
 const HomePage = () => {
     return(
       <div className = "grid-container">
+        <div className = "grid-item header">
+            <Navbar />
+        </div>
         <div className = "grid-item"></div>
         <div className = "grid-item" id = "jumbotron-container">
           <Jumbotron />
@@ -14,9 +18,9 @@ const HomePage = () => {
         <div className = "grid-item"></div>
       </div>
     )
-  }
+}
   
-  class Jumbotron extends React.Component {
+class Jumbotron extends React.Component {
     render() {
       return (
         <div className = "jumbotron">
@@ -28,6 +32,8 @@ const HomePage = () => {
         </div>
       )
     }
-  }
+}
+
+
   
 export default HomePage;

@@ -17,20 +17,36 @@ body {
     margin: 0;
 }
 
-#root{
+#root {
     width: 100%;
     height: 100%;
 }
 
+.navbar {
+   text-align: left;
+}
+
+.navbar > button {
+    padding: 20px;
+    font-size: 75px;
+    font-family: 'B612 Mono', monospace;
+    border: solid black 5px;
+    background-color: transparent;
+}
 .grid-container {
     height: 100%;
     display: grid;
     grid-template-columns: 20% 40% 20% 20%;
-    grid-template-rows: 100%;
+    grid-template-rows: 10% 90%;
 }
 
 .grid-item {
     text-align: center;
+    border: solid black 5px;
+}
+
+.header {
+    grid-column: 1/5;
 }
 
 #jumbotron-container:before {      
