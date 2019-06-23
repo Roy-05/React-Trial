@@ -3,7 +3,7 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: url("../img/background.jpg") no-repeat fixed 100% 100%; 
+    background: url("../img/background_1.jpg") no-repeat fixed 100% 100%; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,16 +22,18 @@ body {
     height: 100%;
 }
 
-.navbar {
-   text-align: left;
-}
+/*.navbar {
+   
+   height: 100%;
+}*/
 
-.navbar > button {
+.navbar-controls {
     padding: 20px;
     font-size: 75px;
     font-family: 'B612 Mono', monospace;
-    border: solid black 5px;
     background-color: transparent;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
 }
 .grid-container {
     height: 100%;
@@ -42,7 +44,7 @@ body {
 
 .grid-item {
     text-align: center;
-    border: solid black 5px;
+    /*border: solid black 5px;*/    /*For Grid Reference*/
 }
 
 .header {
