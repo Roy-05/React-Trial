@@ -7,9 +7,9 @@ class Navbar extends React.Component {
         return(
             <>
                 <button className="navbar-controls" onClick = {()=>this.props.history.push("/")}>HOME</button>
-                <button className="navbar-controls">PROJECTS</button>
-                <button className="navbar-controls">READING</button>
-                <button className="navbar-controls">WORKBENCH</button>
+                <button className="navbar-controls" onClick = {()=>this.props.history.push("/projects")}>PROJECTS</button>
+                <button className="navbar-controls" onClick = {()=>this.props.history.push("/reading")}>READING</button>
+                <button className="navbar-controls" onClick = {()=>this.props.history.push("/workbench")}>WORKBENCH</button>
                 <button className="navbar-controls" onClick = {()=>this.props.history.push("/about")}>ABOUT</button>
             </>
         )
