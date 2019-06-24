@@ -29,12 +29,14 @@ body {
 
 .navbar-controls {
     padding: 20px;
+    width: 600px;
     font-size: 75px;
     font-family: 'B612 Mono', monospace;
     background-color: transparent;
     letter-spacing: 1px;
     transition: all 0.3s ease-out;
 }
+
 .grid-container {
     height: 100%;
     display: grid;
@@ -63,7 +65,7 @@ body {
     vertical-align: middle;    
 }
 
-#title {
+.title {
     font-size: 250px;
     font-family: 'B612 Mono', monospace;
     color:black;
@@ -83,7 +85,11 @@ body {
     font-family: 'B612 Mono', monospace;
     background-color: transparent;
     color:black;
-    padding: 10px;
+    padding: 40px;
     /*border: solid 10px wheat; */
 }
 
+button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-out;
+}

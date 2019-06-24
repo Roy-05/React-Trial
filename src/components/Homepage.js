@@ -4,11 +4,12 @@ import Navbar from './Navbar';
 import "../css/main.css";
 //import '../node_modules/normalize.css/normalize.css';
 
-const HomePage = () => {
+class HomePage extends React.Component {
+  render(){
     return(
       <div className = "grid-container">
         <div className = "grid-item header">
-            <Navbar />
+          <Navbar />
         </div>
         <div className = "grid-item"></div>
         <div className = "grid-item" id = "jumbotron-container">
@@ -18,22 +19,19 @@ const HomePage = () => {
         <div className = "grid-item"></div>
       </div>
     )
+  }
 }
   
-class Jumbotron extends React.Component {
-    render() {
-      return (
-        <div className = "jumbotron">
-          <h1 id = "title">HI,I'M SAKET</h1>
-          <h2 id = "fluff">STUDENT. DEVELOPER. TRAVELER.</h2>
-          <div>
-            <PrimaryButton ButtonText = "LEARN MORE"/>
-          </div>
-        </div>
-      )
-    }
+const Jumbotron = () => {
+  return (
+    <div className = "jumbotron">
+      <h1 className = "title">HI,I'M SAKET</h1>
+      <h2 id = "fluff">STUDENT. DEVELOPER. TRAVELER.</h2>
+      <div>
+        <PrimaryButton ButtonText = "LEARN MORE"/>
+      </div>
+    </div>
+  )
 }
 
-
-  
 export default HomePage;

@@ -7,7 +7,7 @@ class PrimaryButton extends React.Component {
     }
   
     redirect(){
-      alert("Redirect to About me");
+      this.props.history.push("/about");
     }
   
     render() {
