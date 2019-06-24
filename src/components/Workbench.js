@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import "../css/main.css";
+//import "../css/main.css";
 
 class Workbench extends React.Component {
     render(){

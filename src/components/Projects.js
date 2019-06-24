@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import "../css/main.css";
 
 class Projects extends React.Component {
     render(){

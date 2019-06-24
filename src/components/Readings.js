@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import "../css/readings.css";
+//import "../css/readings.css";
 
 class Readings extends React.Component {
     render(){

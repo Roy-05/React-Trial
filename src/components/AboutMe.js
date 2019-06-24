@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import "../css/main.css";
+//import "../css/main.css";
 
 class AboutMe extends React.Component {
     render(){

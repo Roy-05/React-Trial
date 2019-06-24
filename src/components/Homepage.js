@@ -1,7 +1,7 @@
 import React from 'react';
 import PrimaryButton from './PrimaryButton';
 import Navbar from './Navbar';
-import "../css/main.css";
+import "../css/homepage.css";
 //import '../node_modules/normalize.css/normalize.css';
 
 class HomePage extends React.Component {
