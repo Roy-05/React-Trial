@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
-import "../css/main.css";
+import "../css/readings.css";
 
-class Reading extends React.Component {
+class Readings extends React.Component {
     render(){
         return(
             <div className = "grid-container">
@@ -14,4 +14,4 @@ class Reading extends React.Component {
     }
 }
 
-export default Reading;
+export default Readings;

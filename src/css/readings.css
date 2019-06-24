@@ -4,7 +4,6 @@ html {
     margin: 0;
     padding: 0;
     background: url("../img/background_1.jpg") no-repeat fixed 100% 100%; 
-    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,14 +29,17 @@ body {
 
 .navbar-controls {
     padding: 20px;
-    margin-top: 50px;
-    margin-right: 150px;
+    margin: 50px;
     width: 600px;
     font-size: 75px;
     font-family: 'B612 Mono', monospace;
     background-color: transparent;
     letter-spacing: 1px;
     transition: all 0.3s ease-out;
+}
+
+.home-button {
+    display: inline-block;
 }
 
 .grid-container {

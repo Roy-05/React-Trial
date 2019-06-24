@@ -9,7 +9,7 @@ const Routing = () => {
     <Router>
       <Route exact path = "/" component = {HomePage} />
       <Route path = "/projects" component = {AboutMe} />
-      <Route path = "/reading" component = {AboutMe} />
+      <Route path = "/readings" component = {AboutMe} />
       <Route path = "/workbench" component = {AboutMe} />
       <Route path = "/about" component = {AboutMe} />
     </Router>
