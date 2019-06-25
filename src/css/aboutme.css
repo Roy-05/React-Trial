@@ -1,3 +1,9 @@
+/*
+.grid-about > .grid-item {
+    border: solid black 5px;
+}
+*/
+
 .grid-about {
     background-color:#ffeebf;
     height: 100%;
@@ -41,17 +47,11 @@
     /*padding-left: 5%;*/
 }
 
-/*
-.grid-about > .grid-item {
-    border: solid black 5px;
-}
-*/
-
 .grid-about > .profile-outer-container {
     grid-row: 3/5;
 }
 
-.profile-outer-container > .profile-inner-container {
+.profile-outer-container > .profile-image-container {
     width: 75%;
     height: 80%;
     margin: auto;
@@ -62,6 +62,19 @@
     -moz-background-size: contain;
     -o-background-size: contain;
 }
+
+.profile-outer-container > .download-resume {
+    margin: auto;
+    margin-top: 100px;
+    width: 75%;
+    height: 100px;
+    border: solid black 10px;
+    background: url("../img/download.png") no-repeat fixed;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+} 
 .grid-about > .info-container {
     padding-left: 50px;
     padding-right: 50px;
@@ -83,7 +96,8 @@
     font-size: 65px;
     line-height: 150px;
     font-family: 'B612 Mono', monospace;
-    text-align: center;
+    text-align: left;
+    padding-left: 100px;
 }
 
 .contact-container > .social-container {

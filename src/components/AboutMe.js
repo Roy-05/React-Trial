@@ -14,7 +14,8 @@ class AboutMe extends React.Component {
                     GET TO KNOW ME: WHO IS SAKET ROY?
                 </div>
                 <div className = "grid-item profile-outer-container">
-                    <div className = "profile-inner-container"></div>
+                    <div className = "profile-image-container"></div>
+                    <div className = "download-resume">RESUME</div>
                 </div>
                                 
                 <div className = "grid-item description-title">
