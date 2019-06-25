@@ -1,9 +1,9 @@
 .grid-about {
-    background-color: #F9E4B7;
+    background-color:#ffeebf;
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 35% 25%;
+    grid-template-columns: 30% 45% 25%;
     grid-template-rows: 10% 8% 8% 74%;
 }
 
@@ -41,17 +41,19 @@
     /*padding-left: 5%;*/
 }
 
+/*
 .grid-about > .grid-item {
     border: solid black 5px;
 }
+*/
 
 .grid-about > .profile-outer-container {
     grid-row: 3/5;
 }
 
 .profile-outer-container > .profile-inner-container {
-    width: 50%;
-    height: 75%;
+    width: 75%;
+    height: 80%;
     margin: auto;
     border: solid black 10px;
     background: url("../img/profile.jpg") no-repeat fixed;
@@ -86,10 +88,11 @@
 
 .contact-container > .social-container {
     margin-top: 100px;
+    text-align: center;
 }
 
 .social-container > .social-title {
     font-size: 100px;
     font-family: 'B612 Mono', monospace;
-    text-align: center;
+    margin-bottom: 30px;
 }
