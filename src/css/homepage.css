@@ -1,51 +1,14 @@
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.homepage {
     background: url("../img/background_1.jpg") no-repeat fixed 100% 100%; 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-#root {
-    width: 100%;
-    height: 100%;
-}
-
-/*.navbar {
-   
-   height: 100%;
-}*/
-
-.navbar-controls {
-    padding: 20px;
-    margin-top: 50px;
-    margin-right: 150px;
-    width: 600px;
-    font-size: 75px;
-    font-family: 'B612 Mono', monospace;
-    background-color: transparent;
-    letter-spacing: 1px;
-    transition: all 0.3s ease-out;
-}
-
-.hidden {
-    display: none;
 }
 
 .grid-container {
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 20% 40% 20% 20%;
     grid-template-rows: 10% 90%;
@@ -53,17 +16,22 @@ body {
 
 .grid-item {
     text-align: center;
-    /*border: solid black 5px;*/    /*For Grid Reference*/
 }
 
 .header {
     grid-column: 1/5;
 }
 
-#jumbotron-container:before {      
+/*Hide the Home Button on the Landing Page */
+.hidden {
+    display: none;
+}
+
+/*For Vertical Centre Alignment of containing element */
+.jumbotron-container:before {      
     content: '';
     display: inline-block;
-    vertical-align: middle;     /* vertical alignment of the inline element */
+    vertical-align: middle;     
     height: 100%;
 }
 
@@ -93,10 +61,5 @@ body {
     background-color: transparent;
     color:black;
     padding: 30px;
-    /*border: solid 10px wheat; */
 }
 
-button:hover {
-    background: rgba(255, 255, 255, 0.5);
-    transition: all 0.3s ease-out;
-}
