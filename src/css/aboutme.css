@@ -3,16 +3,17 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 10% 7% 83%;
+    grid-template-columns: 40% 35% 25%;
+    grid-template-rows: 10% 8% 8% 74%;
 }
 
 .grid-about > .header {
     text-align: center;
-    grid-column: 1/3;
+    grid-column: 1/4;
+
 }
 
-.grid-about .title::before {
+.grid-about .page-title::before {
     content: '';
     display: inline-block;
     vertical-align: middle;     
@@ -20,20 +21,75 @@
     
 }
 
-.grid-about > .title {
-    grid-column: 1/3;
+.grid-about > .page-title {
+    grid-column: 1/4;
     font-size: 150px;
+    font-family: 'B612 Mono', monospace;
     text-align: center;
+}
+.grid-about .description-title::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;     
+    height: 100%;
+}
+
+.grid-about > .description-title {
+    grid-column: 2/4;
+    font-size: 100px;
+    font-family: 'B612 Mono', monospace;
+    /*padding-left: 5%;*/
 }
 
 .grid-about > .grid-item {
     border: solid black 5px;
 }
 
-.grid-about > .profile-container {
-    background: url("../img/profile.jpg") no-repeat fixed 100% 100%; 
+.grid-about > .profile-outer-container {
+    grid-row: 3/5;
+}
+
+.profile-outer-container > .profile-inner-container {
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    border: solid black 10px;
+    background: url("../img/profile.jpg") no-repeat fixed;
     background-size: contain;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+}
+.grid-about > .info-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info-container > .info-on-me {
+    font-size: 70px;
+    font-family: 'B612 Mono', monospace;
+    line-height: 175px;
+    text-align: justify;
+}
+
+.contact-container > .contact-title {
+    font-size: 100px;
+    font-family: 'B612 Mono', monospace;
+    text-align: center;
+}
+
+.contact-container > .contact-info {
+    font-size: 65px;
+    line-height: 150px;
+    font-family: 'B612 Mono', monospace;
+    text-align: center;
+}
+
+.contact-container > .social-container {
+    margin-top: 100px;
+}
+
+.social-container > .social-title {
+    font-size: 100px;
+    font-family: 'B612 Mono', monospace;
+    text-align: center;
 }
