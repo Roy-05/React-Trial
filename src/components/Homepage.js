@@ -6,7 +6,7 @@ import "../css/homepage.css";
 class HomePage extends React.Component {
   render(){
     return(
-      <div className = "grid-container homepage">
+      <div className = "grid-homepage">
         <div className = "grid-item header">
           <Navbar isHomeVisible = "hidden"/>
         </div>
@@ -16,7 +16,7 @@ class HomePage extends React.Component {
             <h1 className = "title">HI,I'M SAKET</h1>
             <h2 id = "fluff">STUDENT. DEVELOPER. TRAVELER.</h2>
             <div>
-            <span className = "button-container">
+              <span className = "button-container">
               <button className = "primary-button" onClick={() => this.props.history.push('about')}>
                 EXPLORE
               </button>
