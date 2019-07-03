@@ -3,7 +3,8 @@ Personal Website for me. WIP using React
 
 TODO: 
 
-- [ ] Compress Images to reduce Page load time.
+- [ ] Compress Images to reduce Page load time
+- [ ] Look into lazy loading, method to preload background images
 - [ ] Re-format Navbar
 - [ ] Move Contact info from About page to a Contact Page
 - [ ] Redesign About Page
