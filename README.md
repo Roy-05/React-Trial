@@ -1,4 +1,4 @@
-# personal
+# Personal Website
 Personal Website for me. WIP using React
 
 TODO: 
@@ -10,7 +10,9 @@ TODO:
 - [ ] Add 'Some Thoughts' Page?
 - [ ] Set up Google Drive/ OneDrive API
 
-Other Less Important tasks:
+Other Important tasks for later:
 
 - [ ] Set up Service Worker to make it into a PWA
 - [ ] Clean up Repository
+- [ ] Point to a custom domain [Check out Medium Article]
+
