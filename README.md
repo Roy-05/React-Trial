@@ -1,19 +1,4 @@
-# Personal Website
-Personal Website for me. WIP using React
+# React BoilerPlate
 
-TODO: 
-
-- [ ] Compress Images to reduce Page load time
-- [ ] Look into lazy loading, method to preload background images
-- [ ] Re-format Navbar
-- [ ] Move Contact info from About page to a Contact Page
-- [ ] Redesign About Page
-- [ ] Add 'Some Thoughts' Page?
-- [ ] Set up Google Drive/ OneDrive API
-
-Other Important tasks for later:
-
-- [ ] Set up Service Worker to make it into a PWA
-- [ ] Clean up Repository
-- [ ] Point to a custom domain [Check out Medium Article]
-
+Boilerplate code to launch a React app configured using webpack. 
+Does __NOT__ utilize the `create-react-app` module, i.e. built from scratch.
