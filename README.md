@@ -4,7 +4,6 @@ Boilerplate code to launch a React app configured using webpack and transpiled w
 
 Does __NOT__ utilize the `create-react-app` module.
 
-----
 ## Running Development Server
 
 Type `npm i` to install dependencies.  
