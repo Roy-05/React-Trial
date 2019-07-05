@@ -10,8 +10,15 @@ html, body {
     height: 100%;
 }
 
-button:hover {
-    background: rgba(255, 255, 255, 0.5);
-    border: solid black 10px;
-    transition: all 0.3s ease-out;
+.homepage {
+    text-align: center;
+    font-family: Helvetica, sans-serif
+}
+
+.homepage > h2 {
+    font-size: 100px
+}
+
+.homepage-intro {
+    font-size: 75px
 }
